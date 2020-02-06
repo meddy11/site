@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Philosopher&display=swap');
+
+body{
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-image: linear-gradient(to bottom,#0000009f,#0f0b0bf3),url('../img/gif.gif');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow-x: hidden;
+}
+
+main{
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 3em;
+}
+
+/* --------Style du profile ----------- */
+
+.profil{
+  width: 400px;
+  height: 350px;
+  border-radius: 100px;
+}
+
+.profil > img{
+  width: 100%;
+  height: 140%;
+  object-fit: cover;
+}
+
+/* ---------- Style de la Section 'A propos de moi' --------------- */
+
+.container{
+  width: 60%;
+  margin: 3em 4em;
+  color: #ffffff;
+}
+
+.container > h1{
+  font-family: 'Philosopher', sans-serif;
+  font-size: 1.8em;
+  margin-bottom: 5px;
+}
+
+.bg-red{
+  width: 100px;
+  height: 10px;
+  background-color: #da0e0ef1;
+}
+
+.container > p{
+  font-family: 'Philosopher', sans-serif;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.container  strong{
+  color: #da0e0ef1;
+}
+
+
+/* --------- Style du Footer -------- */
+
+footer{
+  font-family: 'Philosopher', sans-serif;
+  margin-left: 35em;
+  color: #ffffff;
+}
+
+footer span > a{
+  color: #da0e0ef1;
+  font-size: 1.5em;
+  text-decoration: none;
+}
