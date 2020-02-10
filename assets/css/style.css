@@ -23,13 +23,13 @@ main{
 
 .profil{
   width: 400px;
-  height: 400px;
+  height: 420px;
   border-radius: 200px;
 }
 
 .profil > img{
   width: 100%;
-  height: 100%;
+  height: 120%;
   object-fit: cover;
 }
 
@@ -43,19 +43,42 @@ main{
 
 .container > h1{
   font-family: 'Bebas Neue','Times New Roman', Times, serif;
-  font-size: 1.7em;
+  font-size: 1.7em;+-
   margin-bottom: 5px;
 }
 
 .bg-red{
   width: 100px;
-  height: 10px;
+  height: 8px;
   background-color: #da0e0ef1;
+  font-size: 2em;
 }
 
 .container > p{
   font-family: 'Lato','Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  font-size: 1.1em;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+/*------- animation du h1 --------*/
+
+.container > h1{
+    animation: type 5s steps(22);
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 3px solid black;
+    width: 22ch;
+
+
+}
+@keyframes type{
+      0%{
+        width: 0ch;
+      }
+      100%{
+        width: 22ch;
+      }
+
 }
 
 .container  strong{
@@ -66,7 +89,7 @@ main{
 /* --------- Style du Footer -------- */
 
 footer{
-  margin-left: 3em;
+  margin-left: 34em;
   color: #ffffff;
 }
 
